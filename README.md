@@ -6,13 +6,11 @@ Official Homebrew tap for [ranwhen](https://github.com/gustawdaniel/ranwhen) –
 
 ```bash
 brew tap gustawdaniel/ranwhen
+brew trust gustawdaniel/ranwhen
 brew install ranwhen
 ```
 
-Or in a single command:
-```bash
-brew install gustawdaniel/ranwhen/ranwhen
-```
+> **Note**: In Homebrew 6+, custom/third-party taps require running `brew trust gustawdaniel/ranwhen` before formulae can be loaded.
 
 ## Features on macOS
 - Native screen / backlit power tracking (CoreDuet).
