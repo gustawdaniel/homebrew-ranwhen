@@ -17,4 +17,3 @@ brew install gustawdaniel/ranwhen/ranwhen
 ## Features on macOS
 - Native screen / backlit power tracking (CoreDuet).
 - Automatically installs and configures background LaunchAgent daemon (`ranwhen --install-daemon`) to archive activity sessions into `~/.local/share/ranwhen/activity_sessions.log`.
-- Provides both `ranwhen` and `runwhen` command aliases.
